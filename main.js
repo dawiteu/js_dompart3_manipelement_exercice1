@@ -63,4 +63,6 @@ const inp3pass = document.querySelector("input#inputPassword3");
 inp3pass.setAttribute('type','password'); 
 
 
+// 10 
 
+input1.setAttribute('type', 'color');
