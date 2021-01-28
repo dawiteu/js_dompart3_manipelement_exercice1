@@ -47,14 +47,12 @@ console.log('----');
 
 
 // 8
-//for([key, val] in input1.attributes){
- //   console.log(`${key} => ${val}`);
-//}
 
-Array.from(input1.attributes).forEach( (e) => {
-    console.log(e.value); // nodeValue; 
-});
+//Array.from(input1.attributes).forEach( (e) => {
+//    console.log(e.value); // nodeValue; 
+//});
 
+console.log(input1.getAttribute('type'));
 
 // 9
 
